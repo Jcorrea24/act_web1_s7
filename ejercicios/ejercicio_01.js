@@ -6,41 +6,11 @@
 //Valor total del inventario//
 
 const inventario = [
-    {
-        id: 1,
-        nombre: "Camiseta de Futbol",
-        precio: 110000,
-        categoria: "Ropa",
-        stock: 50
-    },
-    {
-        id: 2,
-        nombre: "Shorts de Futbol",
-        precio: 25000,
-        categoria: "Ropa",
-        stock: 30
-    },
-    {
-        id: 3,
-        nombre: "Gorras",
-        precio: 45000,
-        categoria: "Ropa",
-        stock: 20
-    },
-    {
-        id: 4,
-        nombre: "Zapatos de futbol",
-        precio: 250000,
-        categoria: "Zapatos",
-        stock: 25
-    },
-    {
-        id: 5,
-        nombre: "Bufandas equipos de Futbol",
-        precio: 25000,
-        categoria: "Adornos",
-        stock: 20
-    }
+    {id: 1, nombre: "Camiseta de Futbol", precio: 110000, categoria: "Ropa",stock: 50},
+    {id: 2, nombre: "Shorts de Futbol", precio: 25000, categoria: "Ropa",stock: 30},
+    {id: 3, nombre: "Gorras", precio: 45000, categoria: "Ropa", stock: 20},
+    {id: 4, nombre: "Zapatos de futbol", precio: 250000, categoria: "Zapatos", stock: 25},
+    {id: 5, nombre: "Bufandas equipos de Futbol", precio: 25000, categoria: "Adornos", stock: 20}
 ];
 
 console.log("Todos los productos:");
